@@ -1,7 +1,7 @@
 {
     "name": "nakano/tweet",
     "require": {
-    "abraham/twitteroauth": "^1.0"
+    "abraham/twitteroauth": "^1.0" 
     },
     "license": ["MIT"],
     "description": "TEST Simple Twitter Client. This package can tweet string only",
