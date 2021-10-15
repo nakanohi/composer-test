@@ -5,7 +5,7 @@ class Tweet
 {
 private $oauth = null;
 public function __construct($keys)
-{ 
+{
 $this->oauth = new TwitterOAuth(
 $keys["consumer_key"],
 $keys["consumer_secret"],

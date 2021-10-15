@@ -1,12 +1,27 @@
 {
-
-    "require": { 
-        "masuipeo/tweet": "^1.0" 
-    }, 
-    "repositories": [ 
-        { 
-            "type": "vcs", 
-            "url": "https://github.com/masuipeo/tweet" 
-        } 
-    ]
+    "name": "nakano/tweet",
+    "require": {
+    "abraham/twitteroauth": "^1.0"
+    },
+    "license": ["MIT"],
+    "description": "TEST Simple Twitter Client. This package can tweet string only",
+    "homepage": "https://github.com/masuipeo/tweet",
+    "authors": [
+    {
+    "name": "masuipeo",
+    "email": "info@masuipeo.com",
+    "homepage": "https://masuipeo.com",
+    "role": "Developer"
+    }
+    ],
+    "support": {
+    "source": "https://github.com/masuipeo/tweet",
+    "issues": "https://github.com/masuipeo/tweet/issues"
+    },
+    "autoload": {
+        "psr-4": {
+        "Masuipeo\\Tweet\\": "src"
+        },
+    "keywords": ["twitter", "api", "simple", "tweet"],
+    }
 }

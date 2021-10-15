@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Masuipeo\\Tweet\\' => array($vendorDir . '/masuipeo/tweet/src'),
+    'Masuipeo\\Tweet\\' => array($baseDir . '/src', $vendorDir . '/masuipeo/tweet/src'),
     'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
     'Abraham\\TwitterOAuth\\' => array($vendorDir . '/abraham/twitteroauth/src'),
 );

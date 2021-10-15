@@ -24,7 +24,8 @@ class ComposerStaticInitff5da657463b8c1549c25e391815d3be
     public static $prefixDirsPsr4 = array (
         'Masuipeo\\Tweet\\' => 
         array (
-            0 => __DIR__ . '/..' . '/masuipeo/tweet/src',
+            0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/..' . '/masuipeo/tweet/src',
         ),
         'Composer\\CaBundle\\' => 
         array (
