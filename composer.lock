@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc0f6ad2816feaefe4d0938f697ff03c",
+    "content-hash": "c5d3d4bf16b5235464d5f57479447b43",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -61,6 +61,10 @@
                 "social",
                 "twitter"
             ],
+            "support": {
+                "issues": "https://github.com/abraham/twitteroauth/issues",
+                "source": "https://github.com/abraham/twitteroauth"
+            },
             "time": "2020-09-22T14:27:00+00:00"
         },
         {
@@ -118,55 +122,26 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2021-09-25T20:32:43+00:00"
-        },
-        {
-            "name": "masuipeo/tweet",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/masuipeo/tweet.git",
-                "reference": "95ee0dc6c42169fc79fe876ffe9b27f36c187149"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/masuipeo/tweet/zipball/95ee0dc6c42169fc79fe876ffe9b27f36c187149",
-                "reference": "95ee0dc6c42169fc79fe876ffe9b27f36c187149",
-                "shasum": ""
-            },
-            "require": {
-                "abraham/twitteroauth": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Masuipeo\\Tweet\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "masuipeo",
-                    "email": "info@masuipeo.com",
-                    "homepage": "https://masuipeo.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Simple Twitter Client. This package can only tweet string.",
-            "homepage": "https://github.com/masuipeo/tweet",
-            "keywords": [
-                "api",
-                "simple",
-                "tweet",
-                "twitter"
-            ],
             "support": {
-                "source": "https://github.com/masuipeo/tweet",
-                "issues": "https://github.com/masuipeo/tweet/issues"
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.2.11"
             },
-            "time": "2019-06-23T09:14:32+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-09-25T20:32:43+00:00"
         }
     ],
     "packages-dev": [],
@@ -176,5 +151,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
